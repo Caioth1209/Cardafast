@@ -1,0 +1,108 @@
+.container > section{
+    padding: 2%;
+    text-align: left;
+    align-items: center;
+}
+
+.card{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    border-radius: 40px;
+    padding: 3%;
+    width: 50%;
+}
+
+.resumo{
+    padding: 0;
+}
+
+.resumo > h3{
+    text-align: center;
+    color: whitesmoke;
+    font-size: larger;
+}
+
+.resumo > h4{
+    text-align: center;
+    color: whitesmoke;
+    font-size: x-large;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+#carrinho{
+    width: 100%;
+    margin: auto;
+    border: 2px solid whitesmoke;
+    border-radius: 40px;
+    padding: 5%;
+}
+
+th{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 16pt;
+    font-variant: small-caps;
+    width: 30px;
+    border-bottom: 2px solid #ddd;
+}
+
+
+tbody > tr > td{
+    text-align: center;
+    padding: 4%;
+    border-bottom: 1px solid #ddd;
+    font-size: 14pt;
+    color: wheat;
+}
+
+tfoot > tr > td{
+    padding: 2%;
+    text-align: center;
+    color: wheat;
+    font-size: x-large;
+    margin-left: 50px;
+}
+
+label{
+    font-size: larger;
+}
+
+select{
+    width: 70%;
+    border-radius: 10px;
+    padding: 1%;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+select:hover{
+    opacity: 0.8;
+    font-size: 11pt;
+}
+
+#btCompra{
+    border-radius: 10px;
+    font-size: 12pt;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #28A745;
+    font-weight: bold;
+}
+
+#btCompra:hover{
+    opacity: 0.8;
+    font-size: 13pt;
+}
+
+
+.hr{
+    margin: auto;
+    color: white;
+    opacity: 0.6;
+    width: 90%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}

@@ -1,0 +1,21 @@
+.container > nav{
+    text-align: center;
+}
+
+.container > section{
+    padding: 5%;
+    text-align: center;
+}
+
+.container > section > h2{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    margin: 3%;
+}
+
+.container > section > p{
+    font-size: 30px;
+    margin: 10%;
+    color: beige;
+}

@@ -1,0 +1,247 @@
+.container > section{
+    padding: 4%;
+    text-align: left;
+    align-items: center;
+}
+
+#restaurante{
+    margin: auto;
+    text-align: center;
+    width: 20%;
+    margin-bottom: 2%;
+}
+
+#restaurante > h3{
+    font-size: x-large;
+    color: whitesmoke;
+    font-variant: small-caps;
+}
+
+.procuraProduto{
+    margin: auto;
+    border: 2px solid rgb(180, 177, 177);
+    box-shadow: 2px 2px 5px whitesmoke;
+    border-radius: 40px;
+    padding: 3%;
+    width: 20%;
+    margin-right: 2%;
+    float: left;
+}
+
+.card-group > label{
+    display: block;
+    padding-bottom: 1%;
+    font-size: large;
+    color: whitesmoke;
+    text-align: left;
+    font-weight: bold;
+}
+
+.card-group > input[type=text]{
+    align-self: flex-end;
+    min-width: 30%;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 10px;
+    max-height: 40px;
+    min-height: 10px;
+    font-size: 12pt;
+    padding: 3px;
+}
+
+#btLocaliza{
+    border-radius: 10px;
+    width: 65%;
+    height: 2%;
+    font-size: 12pt;
+    padding: 2%;
+    cursor: pointer;
+    color: white;
+    background-color: #0569DA;
+    margin-right: 90%;
+    margin-top: 1%;
+    font-weight: bold;
+}
+
+#btLocaliza:hover{
+    opacity: 0.8;
+    font-size: 13pt;
+}
+
+
+#btListar{
+    border-radius: 10px;
+    width: 46%;
+    height: 2%;
+    font-size: 12pt;
+    padding: 2%;
+    cursor: pointer;
+    color: white;
+    background-color: #0569DA;
+    margin-top: 2%;
+    margin-right: 90%;
+    font-weight: bold;
+}
+
+#btListar:hover{
+    opacity: 0.8;
+    font-size: 13pt;
+}
+
+
+.carrinho{
+    border: 2px solid rgb(180, 177, 177);
+    box-shadow: 2px 2px 5px whitesmoke;
+    border-radius: 40px;
+    padding: 3%;
+    width: 20%;
+    margin-right: 2%;
+    float: left;
+}
+
+.carrinho > label{
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+    display: block;
+}
+
+.carrinho > select{
+    width: 100%;
+    border-radius: 10px;
+    padding: 1%;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.carrinho > select:hover{
+    opacity: 0.8;
+    font-size: 11pt;
+}
+
+.carrinho > p{
+    color: whitesmoke;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: large;
+    font-weight: bold;
+}
+
+#preco{
+    font-size: 15pt;
+}
+
+#btProsseguir{
+    border-radius: 10px;
+    width: 90%;
+    height: 2%;
+    font-size: 12pt;
+    padding: 3%;
+    cursor: pointer;
+    color: white;
+    background-color: #28A745;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+#btProsseguir:hover{
+    opacity: 0.8;
+    font-size: 13pt;
+}
+
+
+.produtos{
+    border: 2px solid rgb(180, 177, 177);
+    box-shadow: 2px 2px 5px whitesmoke;
+    border-radius: 40px;
+    width: 30%;
+    margin: auto;
+    padding: 3%;
+    float: left;
+    overflow-y: auto;
+    height: 40vh;
+    text-align: center;
+}
+
+.produtos > h4{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 5%;
+}
+
+.hr{
+    margin: auto;
+    color: white;
+    opacity: 0.6;
+    width: 90%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.prod{
+    width: 90%;
+    padding: 4%;
+}
+
+.prod > label{
+    color: whitesmoke;
+    display: block;
+    text-align: left;
+}
+
+#info{
+    text-align: center;
+}
+
+.nomeProd{
+    font-size: 16pt;
+}
+
+.precoProd{
+    font-size: 14pt;
+}
+
+.descProd{
+    font-size: 14pt;
+    padding: 3%;
+}
+
+#btAdiciona{
+    border-radius: 10px;
+    width: 30%;
+    font-size: 12pt;
+    padding: 2%;
+    cursor: pointer;
+    color: white;
+    background-color: #148497;
+    margin-top: 1%;
+    font-weight: bold;
+}
+
+#btAdiciona:hover{
+    opacity: 0.8;
+    font-size: 13pt;
+}
+
+#btIndisponivel{
+    border-radius: 10px;
+    width: 40%;
+    font-size: 12pt;
+    padding: 2%;
+    cursor: default;
+    color: white;
+    background-color: red;
+    margin-top: 1%;
+    font-weight: bold;
+}
+
+
+#nProd{
+    font-size: large;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+}
+

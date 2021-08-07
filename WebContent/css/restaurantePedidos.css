@@ -1,0 +1,214 @@
+.container > nav{
+    padding: 2%;
+    background-color: #904040;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.container > nav > form > ul{
+    list-style-type: none;
+}
+
+.container > nav > form > ul > li {
+    display: inline-block;
+    padding-right: 1%;
+}
+
+.container > nav > form > ul > li > input[type=submit]{
+    background-color: #904040;
+    border: #904040;
+}
+
+.container > nav > form > ul > li > input{
+	text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: medium;
+    color: whitesmoke;
+}
+
+
+.container > nav > form > ul > li > input:hover{
+    font-size: large;
+}
+
+.container > section{
+    padding: 4%;
+    text-align: left;
+    align-items: center;
+}
+
+.card{
+    margin: auto;
+    border: 2px solid rgb(180, 177, 177);
+    box-shadow: 2px 2px 5px whitesmoke;
+    border-radius: 40px;
+    padding: 3%;
+    width: 95%;
+}
+
+#filt{
+    margin: auto;
+    border: 2px solid rgb(180, 177, 177);
+    box-shadow: 2px 2px 5px whitesmoke;
+    border-radius: 40px;
+    padding: 3%;
+    width: 30%;
+    text-align: center;
+}
+
+#filt > label{
+    padding-bottom: 1%;
+    font-size: x-large;
+    color: whitesmoke;
+    text-align: left;
+    font-weight: bold;
+}
+
+#filt > select{
+    width: 50%;
+    border-radius: 10px;
+    padding: 1%;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+#filt > select:hover{
+    opacity: 0.8;
+    font-size: 11pt;
+}
+
+#filt > p{
+    padding: 1%;
+}
+
+#botaoRelatorio{
+    border-radius: 10px;
+    width: 40%;
+    border: 1px solid white;
+    font-size: 12pt;
+    padding: 2%;
+    cursor: pointer;
+    color: white;
+    background-color: #0569DA;    
+    margin: 1%;
+    font-weight: bold;
+}
+
+#botaoRelatorio:hover{
+    opacity: 0.8;
+    font-size: 13pt;
+}
+
+
+.rolagem{
+	overflow-y: auto;
+    height: 50vh;
+    margin-top: 4%;
+    width: 100%;
+}
+
+table{
+    margin: auto;
+    padding: 3%;
+    width: 100%;
+}
+
+th{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 13pt;
+    font-variant: small-caps;
+    border-bottom: 2px solid #ddd;
+}
+
+
+tbody > tr > td{
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 12pt;
+    color: wheat;
+}
+
+.esp{
+    width: 29%;
+    font-size: 13pt;
+}
+
+.tam{
+	font-size: 14pt;
+}
+
+.aumenta{
+	width: 20%;
+}
+
+.nq{
+    white-space: nowrap;
+}
+
+.btEntregue{
+    border-radius: 10px;
+    font-size: 9pt;
+    padding: 5%;
+    cursor: pointer;
+    color: white;
+    background-color: #148497;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-weight: bold;
+    display: block;
+}
+
+.btEntregue:hover{
+    opacity: 0.8;
+}
+
+.btCancela{
+    border-radius: 10px;
+    font-size: 9pt;
+    padding: 5%;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+
+.btCancela:hover{
+    opacity: 0.8;
+}
+
+
+.btAceita{
+    border-radius: 10px;
+    font-size: 9pt;
+    padding: 3%;
+    cursor: pointer;
+    color: white;
+    background-color: #28A745;
+    margin-bottom: 10%;
+    font-weight: bold;
+    display: block;
+}
+
+.btAceita:hover{
+    opacity: 0.8;
+}
+
+.btCaminho{
+    border-radius: 10px;
+    font-size: 9pt;
+    padding: 4%;
+    cursor: pointer;
+    color: white;
+    background-color: #148497;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-weight: bold;
+    display: block;
+}
+
+.btCaminho:hover{
+    opacity: 0.8;
+}
+

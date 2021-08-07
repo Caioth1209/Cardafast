@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#msgNome, #msgCpf, #msgEnd, #msgLog, #msgPass, #msgRest, #msgCnpj, #msgDesc, #msgPreco, #msgSecPass{
+    color: red;
+    padding: 1%;
+    margin: auto;
+    margin-top: 1%;
+    font-size: large;
+    text-align: center;
+    width: 50%;
+}
+
+
+#msgErro{
+    color: red;
+    margin-bottom: 3%;
+    font-size: large;
+}
+
+#msgSucess{
+    color: #10e542;
+    max-width: 70%;
+    font-size: large;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.container > section{
+   	min-height: 80vh;
+   	background-color: #704040;
+}
+
+.container > nav{
+    padding: 2%;
+    background-color: #904040;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.container > nav > ul{
+    list-style-type: none;
+}
+
+.container > nav > ul > li {
+    display: inline-block;
+}
+
+.container > nav > ul > li > a{
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: large;
+    color: whitesmoke;
+}
+
+
+.container > nav > ul > li > a:hover{
+    font-size: larger;
+}
+
+
+.container > footer{
+    background-color: #904040;
+    text-align: center;
+    border-top: 1px solid whitesmoke;
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    position: fixed;
+    padding: 5px;
+    bottom: 0px;
+}

@@ -1,0 +1,172 @@
+.nav > form > ul > li > input[type=submit]{
+    background-color: #904040;
+    border: #904040;
+}
+
+.nav{
+    padding: 2%;
+    background-color: #904040;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.nav > form > ul{
+    list-style-type: none;
+}
+
+.nav > form > ul > li {
+    display: inline-block;
+    padding-right: 1%;
+}
+
+.nav > form > ul > li > input,a{
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: medium;
+    color: whitesmoke;
+}
+
+.nav > form > ul > li > input:hover, a:hover{
+    font-size: large;
+}
+
+.container > section{
+    padding: 4%;
+    text-align: left;
+    align-items: center;
+}
+
+.caixa{
+    margin: auto;
+    border: 2px solid rgb(180, 177, 177);
+    box-shadow: 2px 2px 5px whitesmoke;
+    border-radius: 40px;
+    padding: 4%;
+    width: 40%;
+}
+
+#hr{
+    color: whitesmoke;
+    opacity: 0.6;
+    width: 100%;
+    margin: 1%;
+}
+
+.card-group > label{
+    display: block;
+    padding-bottom: 1%;
+    font-size: large;
+    color: whitesmoke;
+    text-align: left;
+    font-weight: bold;
+}
+
+.card-group > input[type=text]{
+    align-self: flex-end;
+    min-width: 30%;
+    max-width: 50%;
+    width: 50%;
+    border-radius: 10px;
+    max-height: 40px;
+    min-height: 10px;
+    font-size: 12pt;
+    padding: 3px;
+    margin-right: 90%;
+}
+
+#btLocaliza{
+    border-radius: 10px;
+    width: 19%;
+    height: 2%;
+    font-size: 12pt;
+    padding: 2%;
+    cursor: pointer;
+    color: white;
+    background-color: #0569DA;
+    margin-right: 90%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+#btLocaliza:hover{
+    opacity: 0.8;
+    font-size: 13pt;
+}
+
+#btListar{
+    border-radius: 10px;
+    width: 24%;
+    height: 2%;
+    font-size: 12pt;
+    padding: 2%;
+    cursor: pointer;
+    color: white;
+    background-color: #0569DA;
+    margin-top: 2%;
+    margin-right: 90%;
+    font-weight: bold;
+}
+
+#btListar:hover{
+    opacity: 0.8;
+    font-size: 13pt;
+}
+
+.pesquisa{
+    padding: 1%;
+}
+
+.rolagem{
+	overflow-y: auto;
+    height: 20vh;
+    margin-top: 4%;
+}
+
+.nr{
+    font-size: large;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+p{
+    font-size: large;
+    text-align: left;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.radios{
+    margin-top: 2%;
+}
+
+.radios > input[type=radio]{
+    width: 20%;
+    height: 20px;
+}
+
+.radios > label{
+    font-size: large;
+    color: snow;
+}
+
+#botao{
+    border-radius: 10px;
+    width: 45%;
+    height: 2%;
+    font-size: 12pt;
+    padding: 2%;
+    cursor: pointer;
+    color: white;
+    background-color: #28A745;
+    margin-top: 2%;
+    margin-right: 90%;
+    font-weight: bold;
+}
+
+#botao:hover{
+    opacity: 0.8;
+    font-size: 13pt;
+}

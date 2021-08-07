@@ -1,0 +1,123 @@
+input[type=submit]{
+    background-color: #904040;
+    border: #904040;
+}
+
+.container > nav{
+    padding: 2%;
+    background-color: #904040;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.container > nav > form > ul{
+    list-style-type: none;
+}
+
+.container > nav > form > ul > li {
+    display: inline-block;
+    padding-right: 1%;
+}
+
+.container > nav > form > ul > li > a{
+	text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: large;
+    color: whitesmoke;
+}
+
+.container > nav > form > ul > li > input{
+	text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: medium;
+    color: whitesmoke;
+}
+
+.container > nav > form > ul > li > a:hover{
+    font-size: larger;
+}
+
+.container > nav > form > ul > li > input:hover{
+    font-size: large;
+}
+
+.container > section {
+    padding: 2%;
+}
+
+.bemvindo{
+    width: 50%;
+    float: left;
+    padding: 1%;
+}
+.bemvindo > h1 {
+   font-size: 25pt;
+   font-weight: bold;
+   color: rgb(253, 247, 247);
+   padding-top: 3%;
+   width: 80%;
+}
+
+.bemvindo > p{
+    padding-top: 3%;
+    padding-left: 3%;
+    width: 70%;
+    font-size: 18pt;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+
+.informacoes{
+    width: 40%;
+    float: left;
+}
+
+#hr{
+    color: whitesmoke;
+    opacity: 0.3;
+}
+
+.resumo{
+    border: 3px solid rgb(180, 177, 177);
+    box-shadow: 2px 2px 10px whitesmoke;
+    border-radius: 40px;
+    padding: 6%;
+    width: 80%;
+}
+
+.resumo > h2 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.resumo > ul{
+    padding: 3%;
+    list-style-type: none;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.resumo > ul > li {
+    font-size: larger;
+    padding: 2%;
+    color: whitesmoke;
+    font-weight: bold; 
+}
+
+#mensagens{
+	background-color: #704040;
+    padding: 2%;
+    text-align: center;
+    border: 1px solid rgb(180, 177, 177);
+    box-shadow: 2px 2px 10px whitesmoke;
+    border-radius: 40px;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 30%;
+    clear: both;
+}
+
+#mensagens > p{
+    font-size: larger;
+}
