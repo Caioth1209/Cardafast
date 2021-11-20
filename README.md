@@ -1,7 +1,7 @@
-# Digital Menu
-This project is a non-responsive digital menu where restaurant owners can create their accounts, register their products, take orders, receive customer order reviews, and see the order and review report. Customers can create their accounts, place orders at registered restaurants, review orders and see the orders and reviews report.
+# Menu Digital
+Este projeto é um menu digital não responsivo onde os donos de restaurantes podem criar suas contas, registrar seus produtos, receber pedidos, receber avaliações de pedidos de clientes e ver o relatório de pedidos e de avaliações. Os clientes podem criar suas contas, fazer pedidos em restaurantes registrados e ver o relatório dos pedidos e de avaliações.
 
-Technologies:
-- JavaEE with MVC pattern and OOP using JSP e JPA.
-- MYSQL Database.
-- HTML, CSS and JAVASCRIPT
+Tecnologias:
+- JavaEE com padrão MVC e POO usando JSP e JPA.
+- Banco de dados MYSQL.
+- Interação com HTML, CSS e JAVASCRIPT
